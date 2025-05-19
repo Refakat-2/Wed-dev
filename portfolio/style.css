@@ -7,18 +7,36 @@ a{
     text-decoration: none;
     color: white;
 }
+html{
+    height: 100%;
+}
 body{
+    
     background-color: rgb(3, 3, 36);
     color: white;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-.site{
-    min-height: 100dvh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: minmax(0, 1fr);
-}
+/* .site{
+
+} */
 ul li{
     list-style: none;
+}
+.bullet{
+    padding-left: 17px;
+}
+.bullet li{
+    list-style: square;
+    color: blueviolet;
+}
+#element{
+     color: blueviolet;
+}
+.aboutImg{
+    width: 30%;
+    border-radius: 50%;
 }
 nav{
     display: flex;
@@ -37,6 +55,9 @@ nav{
 }
 .options ul li a:hover{
     color: rgb(134, 134, 216);
+}
+p{
+    font-size: 1.5rem;
 }
 .heroSection{
     padding: 16px 5px 16px 20px;
@@ -82,6 +103,7 @@ main hr{
     margin-left: 15px;
 }
 footer{
+    margin-top: auto;
     padding: 16px 5px 16px 20px;
     display: flex;
     justify-content: space-between;
