@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: rgb(3, 3, 36);
+    color: white;
+}
+.site{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+ul li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 5px 16px 20px;
+    background-color: rgb(19, 19, 43);
+}
+.logo{
+    font-size: 1.1rem;
+    
+}
+.options ul li{
+    font-size: 1rem;
+    display: inline-block;
+    padding-right: 12px;
+}
+.options ul li a:hover{
+    color: rgb(134, 134, 216);
+}
+.heroSection{
+    padding: 16px 5px 16px 20px;
+}
+.fSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.fSection > div{
+    width: 30%;
+}
+.left{
+    font-size: 3rem;
+}
+.name{
+    color: rgb(134, 59, 204);
+}
+/* .right{
+    
+} */
+.right img{
+    width: 80%;
+}
+main hr{
+    border: 0;
+    background: rgb(134, 134, 216);
+    height: 1.2px;
+    margin: 48px 84px;
+}
+.sSection{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.social a img{
+    width: 6%;
+    border-radius: 50%;
+}
+.social a {
+    margin-left: 15px;
+}
+footer{
+    padding: 16px 5px 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.fContact{
+    padding-right: 20px;
+}

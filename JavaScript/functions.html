@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions</title>
+</head>
+<body>
+  <script>
+    function function1() {
+      console.log('hello');
+      console.log(2+2);
+    }
+    function1();
+
+    //Return is used for getting valoe out of a scope
+    function return1() {
+      let a = 5;
+      return a;
+    }
+    console.log(return1());
+
+    //use of parameter is to put value in function
+    function calculateTax(parameter, taxPercent = 0.1) {
+      console.log(parameter * taxPercent);
+    }
+    calculateTax(20000, 0.3);
+    calculateTax(3000)
+  </script>
+</body>
+</html>
